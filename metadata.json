@@ -1,0 +1,6 @@
+{
+  "name": "متجر فوكس | Fox Gaming Store",
+  "description": "متجر لبيع حسابات كود (COD) وفيفا 26 و 27 مع بوابة دفع إلكترونية وتسليم فوري تلقائي ولوحة تحكم شاملة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

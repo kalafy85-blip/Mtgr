@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Cairo', system-ui, -apple-system, sans-serif;
+    --color-bg-serene: #fbfbfa;
+    --color-surface-serene: #ffffff;
+    --color-primary-sage: #1c4532;
+    --color-primary-sage-hover: #153526;
+    --color-soft-sage: #edf5ef;
+    --color-warm-border: #e6e9e4;
+    --color-text-main: #1f2421;
+    --color-text-muted: #5e6862;
+  }
+
+  body {
+    font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #fbfbfa;
+    color: #1f2421;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom serene, soft scrollbar that is gentle on the eye */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f3ef;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d8d2;
+  border-radius: 9999px;
+  border: 2px solid #f4f3ef;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aab1a6;
+}
+
